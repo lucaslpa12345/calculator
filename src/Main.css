@@ -1,0 +1,44 @@
+
+
+.doidera { 
+   
+    width: 295  px;
+    height: 345 px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding:10px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    border: solid 1px rgb(166, 166, 185);
+    background-color: rgb(44, 42, 54);
+    
+   
+     
+
+}
+
+body { 
+    height: 100vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #5f6e7a, #443f50);
+}
+
+@font-face { 
+    font-family: 'RobotoMono';
+    src: url('./fonte/RobotoMono-Thin.ttf');
+}
+
+* { 
+    font-family: 'RobotoMono', Arial, Helvetica, sans-serif;
+}
+.resultado { 
+    
+    border-radius: 20px;
+    background-color: rgb(48, 48, 48);
+    color: rgb(177, 171, 124);
+    border: solid 1px rgb(152, 187, 189);
+    
+}
